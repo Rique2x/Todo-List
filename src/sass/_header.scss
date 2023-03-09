@@ -1,4 +1,8 @@
 $background-color1: #f2e394;
+$fontSize-Title: 2rem;
+$fontColor-White: rgb(255, 255, 255);
+$Poppins: 'Poppins', sans-serif;
+
 
 header{
     border: 1px solid;
@@ -14,4 +18,11 @@ header{
     border: 1px solid;
 	display: flex;
 	align-items: center;
+}
+
+#header-title {
+	padding-left: 60px;
+	font-size: $fontSize-Title;
+	color: $fontColor-White;
+    font-family: $Poppins;
 }

@@ -12,4 +12,11 @@ header {
   border: 1px solid;
   display: flex;
   align-items: center;
+}
+
+#header-title {
+  padding-left: 60px;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
 }/*# sourceMappingURL=main.css.map */
