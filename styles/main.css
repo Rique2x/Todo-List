@@ -107,4 +107,11 @@ i {
 #nav-border-container {
   display: flex;
   justify-content: center;
+}
+
+.project-content-left {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  gap: 5px;
 }/*# sourceMappingURL=main.css.map */
