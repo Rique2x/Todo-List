@@ -21,8 +21,13 @@ header{
 }
 
 #header-title {
-	padding-left: 60px;
+	padding-left: 25px;
 	font-size: $fontSize-Title;
 	color: $fontColor-White;
     font-family: $Poppins;
+}
+
+#todo-icon {
+	padding-left: 40px;
+    font-size: 3em;
 }

@@ -15,8 +15,13 @@ header {
 }
 
 #header-title {
-  padding-left: 60px;
+  padding-left: 25px;
   font-size: 2rem;
   color: rgb(255, 255, 255);
   font-family: "Poppins", sans-serif;
+}
+
+#todo-icon {
+  padding-left: 40px;
+  font-size: 3em;
 }/*# sourceMappingURL=main.css.map */
