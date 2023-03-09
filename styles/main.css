@@ -6,4 +6,10 @@ header {
   padding: 15px;
   display: flex;
   justify-content: space-between;
+}
+
+#header-title-container {
+  border: 1px solid;
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
