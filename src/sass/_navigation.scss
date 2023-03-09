@@ -19,7 +19,7 @@ nav {
     border: 1px solid;
 }
 
-i
+i,
 li {
 	cursor: pointer;
 }
@@ -50,3 +50,20 @@ i{
 	color: $dark-green;
 	font-weight: bold;
 }
+
+#projects-item-icon {
+	flex-shrink: 0;
+}
+
+.projects-item-name {
+	text-overflow: ellipsis;
+	overflow: hidden;
+    border: 1px solid;
+
+    &:hover{
+    transition: ease-in-out 150ms;
+	background-color: #e5e7eb;
+    }
+}
+
+
