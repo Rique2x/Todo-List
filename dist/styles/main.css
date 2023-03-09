@@ -49,4 +49,18 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 15px 10px 15px 15px;
+  border: 1px solid;
+  list-style: none;
+}
+
+i li {
+  cursor: pointer;
+}
+
+i {
+  flex-shrink: 0;
+}
+
+.hide {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
