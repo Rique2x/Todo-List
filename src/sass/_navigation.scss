@@ -1,16 +1,19 @@
 $Grey :#607d8b;
+$Segoe: "Segoe", "Segoe UI", "Arial", "sans-serif";
+
+
 
 nav {
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 5px 0px,
 		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 	width: clamp(300px, 400px, 20%);
 	overflow: auto;
-    border: 1px solid;
 }
 
 #main-projects-heading, 
 #projects-heading{
     color: $Grey;
+    font-family: $Segoe;
     font-weight: 900;
 	font-size: 1rem;
 	display: flex;
@@ -57,6 +60,7 @@ i{
 .selected .projects-item-name {
 	color: $Grey;
 	font-weight: bold;
+    font-family: $Segoe;
 }
 
 #projects-item-icon {
