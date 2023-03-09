@@ -1,0 +1,11 @@
+$background-color1: #f2e394;
+
+header{
+    border: 1px solid;
+    display: flex;
+	align-items: center;
+    background-color: $background-color1;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+}
