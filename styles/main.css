@@ -43,7 +43,7 @@ nav {
 #main-projects-heading,
 #projects-heading {
   color: #607d8b;
-  font-family: "Segoe", "Segoe UI", "Arial", "sans-serif";
+  font-family: "Raleway", sans-serif;
   font-weight: 900;
   font-size: 1rem;
   display: flex;
@@ -89,7 +89,7 @@ i {
 .selected .projects-item-name {
   color: #607d8b;
   font-weight: bold;
-  font-family: "Segoe", "Segoe UI", "Arial", "sans-serif";
+  font-family: "Raleway", sans-serif;
 }
 
 #projects-item-icon {
@@ -174,7 +174,7 @@ main {
 #main-title {
   font-size: 1.5rem;
   color: #607d8b;
-  font-family: "Segoe", "Segoe UI", "Arial", "sans-serif";
+  font-family: "Raleway", sans-serif;
 }
 
 #add-task {
