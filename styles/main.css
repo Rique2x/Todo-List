@@ -92,9 +92,19 @@ i {
 .projects-item-name {
   text-overflow: ellipsis;
   overflow: hidden;
-  border: 1px solid;
 }
 .projects-item-name:hover {
   transition: ease-in-out 150ms;
   background-color: #e5e7eb;
+}
+
+.projects-item-name {
+  font-size: 0.9rem;
+  color: grey;
+  pointer-events: none;
+}
+
+#nav-border-container {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
