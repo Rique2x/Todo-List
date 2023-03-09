@@ -19,6 +19,14 @@ nav {
     border: 1px solid;
 }
 
+#main-projects-title,
+#projects-title {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+
 i,
 li {
 	cursor: pointer;
@@ -76,9 +84,3 @@ i{
 	justify-content: center;
 }
 
-.project-content-left{
-	display: flex;
-	align-items: center;
-	padding-right: 10px;
-	gap: 5px;
-}
