@@ -16,7 +16,6 @@ nav {
 	justify-content: space-between;
 	padding: 15px 10px 15px 15px;
     border: 1px solid;
-    list-style: none;
 }
 
 i
@@ -30,4 +29,9 @@ i{
 
 .hide {
 	display: none;
+}
+
+#main-projects-list .selected,
+#projects-list .selected {
+	background-color: rgba(96, 125, 139, 0.15);
 }
