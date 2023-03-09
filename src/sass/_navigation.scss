@@ -58,7 +58,6 @@ i{
 .projects-item-name {
 	text-overflow: ellipsis;
 	overflow: hidden;
-    border: 1px solid;
 
     &:hover{
     transition: ease-in-out 150ms;
@@ -66,4 +65,13 @@ i{
     }
 }
 
+.projects-item-name {
+	font-size: 0.9rem;
+	color: grey;
+	pointer-events: none;
+}
 
+#nav-border-container {
+	display: flex;
+	justify-content: center;
+}
