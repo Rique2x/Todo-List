@@ -42,4 +42,11 @@ nav {
   border: 1px solid;
 }
 
-/*# sourceMappingURL=main.css.map */
+#main-projects-heading, #projects-heading {
+  font-weight: 900;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px 15px 15px;
+}/*# sourceMappingURL=main.css.map */
