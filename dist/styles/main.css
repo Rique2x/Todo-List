@@ -159,4 +159,20 @@ button {
   border: none;
   background-color: transparent;
   cursor: pointer;
+}
+
+header {
+  grid-column: span 2;
+}
+
+main {
+  display: flex;
+  height: calc(100% - 66px);
+  gap: 15px;
+}
+
+#main-title {
+  font-size: 1.5rem;
+  color: #607d8b;
+  font-family: "Segoe", "Segoe UI", "Arial", "sans-serif";
 }/*# sourceMappingURL=main.css.map */

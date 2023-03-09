@@ -2,3 +2,20 @@
 @import "modal.scss";
 @import "navigation.scss";
 @import "universal.scss";
+
+
+header {
+	grid-column: span 2;
+}
+
+main {
+	display: flex;
+	height: calc(100% - 66px);
+	gap: 15px;
+}
+
+#main-title {
+	font-size: 1.5rem;
+	color: $Grey;
+    font-family: $Segoe;
+}
