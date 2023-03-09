@@ -35,3 +35,11 @@ i{
 #projects-list .selected {
 	background-color: rgba(96, 125, 139, 0.15);
 }
+
+.projects-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 0px 1rem 15px;
+	gap: 5px;
+}
