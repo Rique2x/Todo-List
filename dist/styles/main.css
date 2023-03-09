@@ -33,4 +33,13 @@ header {
   transition: 0.3s;
   background-color: #413c28;
   color: #f5dd63;
-}/*# sourceMappingURL=main.css.map */
+}
+
+nav {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 5px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  width: clamp(300px, 400px, 20%);
+  overflow: auto;
+  border: 1px solid;
+}
+
+/*# sourceMappingURL=main.css.map */
