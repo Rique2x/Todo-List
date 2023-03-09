@@ -1,5 +1,4 @@
 header {
-  border: 1px solid;
   display: flex;
   align-items: center;
   background-color: #f2e394;
@@ -39,12 +38,12 @@ nav {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 5px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   width: clamp(300px, 400px, 20%);
   overflow: auto;
-  border: 1px solid;
 }
 
 #main-projects-heading,
 #projects-heading {
   color: #607d8b;
+  font-family: "Segoe", "Segoe UI", "Arial", "sans-serif";
   font-weight: 900;
   font-size: 1rem;
   display: flex;
@@ -90,6 +89,7 @@ i {
 .selected .projects-item-name {
   color: #607d8b;
   font-weight: bold;
+  font-family: "Segoe", "Segoe UI", "Arial", "sans-serif";
 }
 
 #projects-item-icon {
