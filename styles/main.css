@@ -53,7 +53,8 @@ nav {
   border: 1px solid;
 }
 
-i li {
+i,
+li {
   cursor: pointer;
 }
 
@@ -82,4 +83,18 @@ i {
 .selected .projects-item-name {
   color: rgb(1, 49, 1);
   font-weight: bold;
+}
+
+#projects-item-icon {
+  flex-shrink: 0;
+}
+
+.projects-item-name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border: 1px solid;
+}
+.projects-item-name:hover {
+  transition: ease-in-out 150ms;
+  background-color: #e5e7eb;
 }/*# sourceMappingURL=main.css.map */
