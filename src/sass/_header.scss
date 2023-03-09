@@ -1,6 +1,7 @@
 $background-color1: #f2e394;
 $fontSize-Title: 2rem;
 $fontColor-White: rgb(255, 255, 255);
+$fontColor-Black: rgb(0, 0, 0);
 $Poppins: 'Poppins', sans-serif;
 
 
@@ -15,7 +16,6 @@ header{
 }
 
 #header-title-container {
-    border: 1px solid;
 	display: flex;
 	align-items: center;
 }
@@ -31,3 +31,15 @@ header{
 	padding-left: 40px;
     font-size: 3em;
 }
+
+#header-hamburger-menu {
+	border-radius: 5px;
+	color: $fontColor-Black;
+    
+    &:hover{
+    transition: 0.3s;
+	background-color:#413c28;
+	color: #f5dd63;
+    }
+}
+

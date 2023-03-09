@@ -9,7 +9,6 @@ header {
 }
 
 #header-title-container {
-  border: 1px solid;
   display: flex;
   align-items: center;
 }
@@ -24,4 +23,14 @@ header {
 #todo-icon {
   padding-left: 40px;
   font-size: 3em;
+}
+
+#header-hamburger-menu {
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+}
+#header-hamburger-menu:hover {
+  transition: 0.3s;
+  background-color: #413c28;
+  color: #f5dd63;
 }/*# sourceMappingURL=main.css.map */
