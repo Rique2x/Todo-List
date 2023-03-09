@@ -1,4 +1,4 @@
-
+$dark-green :rgb(1, 49, 1);
 
 nav {
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 5px 0px,
@@ -9,7 +9,8 @@ nav {
 }
 
 #main-projects-heading, #projects-heading{
-	font-weight: 900;
+    color: $dark-green;
+    font-weight: 900;
 	font-size: 1rem;
 	display: flex;
 	align-items: center;
@@ -42,4 +43,10 @@ i{
 	justify-content: space-between;
 	padding: 1rem 0px 1rem 15px;
 	gap: 5px;
+}
+
+.selected .projects-item-icon,
+.selected .projects-item-name {
+	color: $dark-green;
+	font-weight: bold;
 }

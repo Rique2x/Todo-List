@@ -43,6 +43,7 @@ nav {
 }
 
 #main-projects-heading, #projects-heading {
+  color: rgb(1, 49, 1);
   font-weight: 900;
   font-size: 1rem;
   display: flex;
@@ -75,4 +76,10 @@ i {
   justify-content: space-between;
   padding: 1rem 0px 1rem 15px;
   gap: 5px;
+}
+
+.selected .projects-item-icon,
+.selected .projects-item-name {
+  color: rgb(1, 49, 1);
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
