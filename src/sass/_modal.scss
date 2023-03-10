@@ -76,3 +76,9 @@
 	gap: 10px;
 	flex-grow: 1;
 }
+
+.input-container-1 > div{
+    display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
