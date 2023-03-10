@@ -61,6 +61,23 @@ header {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.modal-overlay {
+  opacity: 0;
+}
+
+.modal-header-container {
+  background-color: #f2e394;
+  border: 1px solid;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  font-weight: bold;
+  display: flex;
+  padding: 0.9rem;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(0, 0, 0);
+}
+
 nav {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 5px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   width: clamp(300px, 400px, 20%);
