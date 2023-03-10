@@ -1,3 +1,17 @@
+@mixin input-container{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+	gap: 10px;
+	flex-grow: 1;
+}
+
+@mixin input-container-div{
+    display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
 .modal{
     border: 1px solid;
     position: fixed;
@@ -70,15 +84,9 @@
 }
 
 .input-container-1{
-    border: 1px solid;
-    display: flex;
-    flex-direction: column;
-	gap: 10px;
-	flex-grow: 1;
+    @include input-container;
 }
 
 .input-container-1 > div{
-    display: flex;
-	flex-direction: column;
-	gap: 5px;
+    @include input-container-div;
 }
