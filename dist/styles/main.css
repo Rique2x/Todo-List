@@ -116,6 +116,20 @@ header {
   gap: 5px;
 }
 
+.input-container-2 {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;
+}
+
+.input-container-2 > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
 .label-title::after,
 .label-due-date.required::after {
   content: "*";

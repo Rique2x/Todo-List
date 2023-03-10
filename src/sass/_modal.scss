@@ -91,6 +91,14 @@
     @include input-container-div;
 }
 
+.input-container-2{
+    @include input-container;
+}
+
+.input-container-2 > div{
+    @include input-container-div;
+}
+
 .label-title::after,
 .label-due-date.required::after {
 	content: "*";
