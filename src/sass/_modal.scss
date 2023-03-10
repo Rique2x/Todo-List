@@ -90,3 +90,10 @@
 .input-container-1 > div{
     @include input-container-div;
 }
+
+.label-title::after,
+.label-due-date.required::after {
+	content: "*";
+	margin-left: 3px;
+	color: red;
+}
