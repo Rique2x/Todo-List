@@ -35,7 +35,6 @@ header {
 }
 
 .modal {
-  border: 1px solid;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -66,7 +65,6 @@ header {
 
 .modal-header-container {
   background-color: #f2e394;
-  border: 1px solid;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
   font-weight: bold;
@@ -80,7 +78,6 @@ header {
 .modal-content {
   display: flex;
   flex-direction: column;
-  border: 1px solid;
 }
 
 .modal-header-cancel {
@@ -151,6 +148,15 @@ header {
 button:focus {
   outline: 1px solid #f2e394;
   box-shadow: 0 0 10px #eedc84;
+}
+
+.title-error {
+  font-size: 0.8rem;
+  opacity: 0;
+  color: red;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */ /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 nav {
