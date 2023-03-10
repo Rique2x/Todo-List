@@ -1,7 +1,8 @@
 $Grey :#607d8b;
-$Segoe: 'Raleway', sans-serif;
-
-
+@mixin FontX{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
 
 nav {
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 5px 0px,
@@ -13,13 +14,12 @@ nav {
 #main-projects-heading, 
 #projects-heading{
     color: $Grey;
-    font-family: $Segoe;
-    font-weight: 900;
 	font-size: 1rem;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 15px 10px 15px 15px;
+    @include FontX;
 }
 
 #main-projects-title,
@@ -59,8 +59,7 @@ i{
 .selected .projects-item-icon,
 .selected .projects-item-name {
 	color: $Grey;
-	font-weight: bold;
-    font-family: $Segoe;
+	@include FontX;
 }
 
 #projects-item-icon {

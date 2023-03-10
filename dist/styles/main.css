@@ -16,7 +16,7 @@ header {
   padding-left: 25px;
   font-size: 2rem;
   color: rgb(255, 255, 255);
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
 }
 
 #todo-icon {
@@ -43,13 +43,13 @@ nav {
 #main-projects-heading,
 #projects-heading {
   color: #607d8b;
-  font-family: "Raleway", sans-serif;
-  font-weight: 900;
   font-size: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px 10px 15px 15px;
+  font-family: sans-serif;
+  font-weight: lighter;
 }
 
 #main-projects-title,
@@ -88,8 +88,8 @@ i {
 .selected .projects-item-icon,
 .selected .projects-item-name {
   color: #607d8b;
-  font-weight: bold;
-  font-family: "Raleway", sans-serif;
+  font-family: sans-serif;
+  font-weight: lighter;
 }
 
 #projects-item-icon {
@@ -174,7 +174,8 @@ main {
 #main-title {
   font-size: 1.5rem;
   color: #607d8b;
-  font-family: "Raleway", sans-serif;
+  font-family: sans-serif;
+  font-weight: lighter;
 }
 
 #add-task {
@@ -187,4 +188,8 @@ main {
   margin: 15px 0px 15px 0px;
   border-radius: 5px;
   max-width: 200px;
+}
+#add-task:hover {
+  transition: 0.3s;
+  background-color: #769aac;
 }/*# sourceMappingURL=main.css.map */
