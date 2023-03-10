@@ -137,6 +137,15 @@ header {
   color: red;
 }
 
+.modal-form input,
+.modal-form select {
+  outline: none;
+  border: none;
+  background-color: #eedc84;
+  padding: 5px;
+  border-radius: 2px;
+}
+
 nav {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 5px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   width: clamp(300px, 400px, 20%);
