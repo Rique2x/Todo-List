@@ -152,6 +152,7 @@ button:focus {
 
 .title-error {
   font-size: 0.8rem;
+  opacity: 0;
   color: red;
   -webkit-user-select: none; /* Safari */
   -moz-user-select: none; /* Firefox */ /* IE10+/Edge */
@@ -160,17 +161,6 @@ button:focus {
 
 .title-error.active {
   opacity: 1;
-}
-
-.title-container input.active,
-.due-date-container input.active {
-  outline: 1px solid red;
-}
-
-.title-container input.active:focus,
-.due-date-container input.active:focus {
-  box-shadow: 0px 0px 10px red;
-  outline: 1px solid red;
 }
 
 nav {
