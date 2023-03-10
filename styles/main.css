@@ -110,6 +110,12 @@ header {
   flex-grow: 1;
 }
 
+.input-container-1 > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
 nav {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 5px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   width: clamp(300px, 400px, 20%);
