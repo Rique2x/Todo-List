@@ -42,3 +42,9 @@
 	justify-content: space-between;
     color: $fontColor-Black;
 }
+
+.modal-content {
+	display: flex;
+	flex-direction: column;
+    border: 1px solid;
+}
