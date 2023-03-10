@@ -42,7 +42,6 @@ header {
   transform: translate(-50%, -50%);
   border-radius: 5px;
   z-index: 1;
-  pointer-events: none;
   width: 500px;
   padding: 15px;
 }
@@ -82,6 +81,15 @@ header {
   display: flex;
   flex-direction: column;
   border: 1px solid;
+}
+
+.modal-header-cancel {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.modal-header-cancel:hover {
+  color: #f1cb08;
+  transition: 0.3s;
 }
 
 nav {
