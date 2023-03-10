@@ -34,6 +34,19 @@ header {
   color: #f5dd63;
 }
 
+.modal {
+  border: 1px solid;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  z-index: 1;
+  pointer-events: none;
+  width: 500px;
+  padding: 15px;
+}
+
 nav {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 5px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   width: clamp(300px, 400px, 20%);
