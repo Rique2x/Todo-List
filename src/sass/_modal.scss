@@ -68,3 +68,11 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+
+.input-container-1{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+	gap: 10px;
+	flex-grow: 1;
+}
