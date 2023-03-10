@@ -114,3 +114,10 @@
 	padding: 5px;
 	border-radius: 2px;
 }
+
+.modal-form input:focus,
+.modal-form select:focus,
+button:focus {
+	outline: 1px solid $background-color1;
+	box-shadow: 0 0 10px #eedc84;
+}

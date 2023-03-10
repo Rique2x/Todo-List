@@ -146,6 +146,13 @@ header {
   border-radius: 2px;
 }
 
+.modal-form input:focus,
+.modal-form select:focus,
+button:focus {
+  outline: 1px solid #f2e394;
+  box-shadow: 0 0 10px #eedc84;
+}
+
 nav {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 5px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   width: clamp(300px, 400px, 20%);
