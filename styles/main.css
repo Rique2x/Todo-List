@@ -90,7 +90,6 @@ header {
 }
 
 .modal-form {
-  border: 1px solid;
   display: flex;
   gap: 10px;
   padding: 15px;
@@ -100,7 +99,6 @@ header {
 }
 
 .input-container-1 {
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -114,7 +112,6 @@ header {
 }
 
 .input-container-2 {
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -161,6 +158,16 @@ button:focus {
 
 .title-error.active {
   opacity: 1;
+}
+
+.modal-button-container {
+  background-color: #f3e9b7;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  justify-content: flex-end;
+  border-radius: 0px 0px 5px 5px;
 }
 
 nav {
