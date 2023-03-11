@@ -179,6 +179,17 @@ button:focus {
   font-weight: bold;
 }
 
+.cancel-modal {
+  outline: 1px solid #f0eee2;
+  color: #eedc84;
+  background-color: white;
+}
+.cancel-modal:hover {
+  background-color: #eedc84;
+  transition: 0.3s;
+  color: rgb(0, 0, 0);
+}
+
 nav {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 5px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   width: clamp(300px, 400px, 20%);

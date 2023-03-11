@@ -150,3 +150,15 @@ button:focus {
         font-weight: bold;
     }
 }
+
+.cancel-modal {
+	outline: 1px solid #f0eee2;
+	color: #eedc84;
+	background-color: white;
+
+    &:hover {
+        background-color: #eedc84;
+        transition: 0.3s;
+        color: $fontColor-Black;
+    }
+}
