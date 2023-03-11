@@ -162,3 +162,14 @@ button:focus {
         color: $fontColor-Black;
     }
 }
+
+.save-modal {
+	background-color: #eedc84;
+	color: $fontColor-Black;
+	font-weight: bold;
+
+    &:hover {
+        background-color: #f0e094;
+        transition: 0.3s;
+    }
+}
