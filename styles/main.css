@@ -169,8 +169,7 @@ button:focus {
   justify-content: flex-end;
   border-radius: 0px 0px 5px 5px;
 }
-
-.modal-button-container > button {
+.modal-button-container button {
   display: flex;
   justify-content: center;
   border: none;
