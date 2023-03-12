@@ -1,4 +1,4 @@
-$Grey :#607d8b;
+$Grey : #f0e094;
 
 @mixin FontX{
     font-family: sans-serif;
@@ -14,7 +14,7 @@ nav {
 
 #main-projects-heading, 
 #projects-heading{
-    color: $Grey;
+    color: $fontColor-Black;
 	font-size: 1rem;
 	display: flex;
 	align-items: center;
@@ -59,7 +59,7 @@ i{
 
 .selected .projects-item-icon,
 .selected .projects-item-name {
-	color: $Grey;
+	color: $fontColor-Black;
 	@include FontX;
 }
 
