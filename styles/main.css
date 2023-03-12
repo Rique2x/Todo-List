@@ -43,6 +43,8 @@ header {
   z-index: 1;
   width: 500px;
   padding: 15px;
+  opacity: 0;
+  pointer-events: none;
 }
 .modal:active {
   opacity: 1;
@@ -208,7 +210,7 @@ nav {
 
 #main-projects-heading,
 #projects-heading {
-  color: #607d8b;
+  color: rgb(0, 0, 0);
   font-size: 1rem;
   display: flex;
   align-items: center;
@@ -253,7 +255,7 @@ i {
 
 .selected .projects-item-icon,
 .selected .projects-item-name {
-  color: #607d8b;
+  color: rgb(0, 0, 0);
   font-family: sans-serif;
   font-weight: lighter;
 }
@@ -339,7 +341,7 @@ main {
 
 #main-title {
   font-size: 1.5rem;
-  color: #607d8b;
+  color: rgb(0, 0, 0);
   font-family: sans-serif;
   font-weight: lighter;
 }
@@ -347,7 +349,7 @@ main {
 #add-task {
   border: 1px solid black;
   padding: 1rem 3rem;
-  background-color: #607d8b;
+  background-color: #f0e094;
   color: white;
   font-weight: bold;
   border: none;
@@ -357,5 +359,5 @@ main {
 }
 #add-task:hover {
   transition: 0.3s;
-  background-color: #769aac;
+  background-color: #eee3af;
 }/*# sourceMappingURL=main.css.map */
