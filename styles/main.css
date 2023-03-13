@@ -209,6 +209,14 @@ button:focus {
   color: #585858;
 }
 
+#delete-project-confirm {
+  background-color: #dc2626;
+}
+#delete-project-confirm:hover {
+  transition: 0.3s;
+  background-color: #be2525;
+}
+
 nav {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 5px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   width: clamp(300px, 400px, 20%);
