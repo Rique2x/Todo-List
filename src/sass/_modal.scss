@@ -174,3 +174,12 @@ button:focus {
         transition: 0.3s;
     }
 }
+
+.modal-warning {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0.5em 0;
+	gap: 15px;
+	color: #585858;
+}
