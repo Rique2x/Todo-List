@@ -183,3 +183,12 @@ button:focus {
 	gap: 15px;
 	color: #585858;
 }
+
+#delete-project-confirm {
+	background-color: #dc2626;
+
+    &:hover {
+        transition: 0.3s;
+        background-color: #be2525;
+    }
+}
