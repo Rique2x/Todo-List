@@ -383,4 +383,16 @@ main {
 #add-task:hover {
   transition: 0.3s;
   background-color: #eee3af;
+}
+
+#task-section {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 100%;
+  overflow: auto;
+}
+
+#task-section[data-nav-opened=false] {
+  padding: 15px;
 }/*# sourceMappingURL=main.css.map */
