@@ -51,7 +51,7 @@ main {
 	padding: 15px;
 }
 
-task {
+.task {
 	border: 1px solid #ddd;
 	border-radius: 5px;
 	cursor: pointer;
@@ -63,6 +63,11 @@ task {
 	justify-content: space-between;
 	max-height: 100px;
 	overflow: hidden;
+
+	&:hover {
+		background-color: rgba(244, 244, 245, 0.8);
+		transition: 0.5s;
+	}
 }
 
 .all-tasks {
@@ -70,4 +75,17 @@ task {
 	flex-direction: column;
 	gap: 5px;
 	width: 100%;
+}
+
+
+.task.Low {
+	border-left: 5px solid #4ade80;
+}
+
+.task.Medium {
+	border-left: 5px solid #fde047;
+}
+
+.task.High {
+	border-left: 5px solid #ef4444;
 }
