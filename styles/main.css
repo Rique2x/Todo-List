@@ -395,4 +395,25 @@ main {
 
 #task-section[data-nav-opened=false] {
   padding: 15px;
+}
+
+task {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  justify-content: space-between;
+  max-height: 100px;
+  overflow: hidden;
+}
+
+.all-tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
