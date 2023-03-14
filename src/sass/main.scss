@@ -38,3 +38,15 @@ main {
 	background-color: #eee3af;
 	}
 }
+
+#task-section {
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	width: 100%;
+	overflow: auto;
+}
+
+#task-section[data-nav-opened="false"] {
+	padding: 15px;
+}
