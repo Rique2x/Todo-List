@@ -11,6 +11,13 @@
 	gap: 5px;
 }
 
+@mixin due-date{
+	border: 1px solid;
+	max-width: 200px;
+	border-radius: 5px;
+	border-color: #dc2626;
+}
+
 .modal{
     position: fixed;
     top: 50%;
@@ -138,13 +145,12 @@
 }
 
 #add-task-due-date{
-	border: 1px solid;
-	max-width: 200px;
-	border-radius: 5px;
-	border-color: #dc2626;
+	@include due-date;
 }
 
-
+#edit-task-due-date{
+	@include due-date;
+}
 
 .title-error {
 	font-size: 0.8rem;

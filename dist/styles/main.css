@@ -172,6 +172,13 @@ header {
   border-color: #dc2626;
 }
 
+#edit-task-due-date {
+  border: 1px solid;
+  max-width: 200px;
+  border-radius: 5px;
+  border-color: #dc2626;
+}
+
 .title-error {
   font-size: 0.8rem;
   opacity: 0;
