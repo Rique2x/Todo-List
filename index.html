@@ -128,29 +128,24 @@
              <!-- MODAL EDIT TASK-->
 
              <div class="modal" id="edit-task-modal">
-
-                <div class="modal-header-container">
-                    <div class="modal-header-title">Edit Task</div>
-                    <div class="modal-header-cancel" id="edit-task-modal-header-cancel">&times;</div>
-                </div>
+    
                 <div class="modal-content">
                     <form class="modal-form" id="edit-task-form" action="">
                         <div class="input-container-1">
                             <div class="title-container">
-                                <label for="edit-task-title" class="label-title">Title</label>
                                 <input type="text" id="edit-task-title" class="modal-title" placeholder="Title">
                                 <div class="title-error" id="edit-task-title-error">Title can't be empty.</div>
                             </div>
-                            <div class="due-date-container">
-                                <label for="edit-task-due-date" class="label-due-date">Due Date</label>
-                                <input type="datetime-local" id="edit-task-due-date">
+                            <div class="description-container">
+
+                                <input type="text" id="edit-task-description" class="modal-description"
+                                    placeholder="Description">
                             </div>
                         </div>
                         <div class="input-container-2">
-                            <div class="description-container">
-                                <label for="edit-task-description">Description</label>
-                                <input type="text" id="edit-task-description" class="modal-description"
-                                    placeholder="Description">
+                           
+                            <div class="due-date-container">
+                                <input type="datetime-local" id="edit-task-due-date">
                             </div>
                             <div class="priority-container">
                                 <label for="edit-task-priority">Priority</label>
