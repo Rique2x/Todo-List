@@ -54,12 +54,12 @@ const navigation = (() => {
 			setNavValue();
 		}
 
-		const navHamburgerMenu = document.querySelector("#nav-hamburger-menu");
+		
 		const headerHamburgerMenu = document.querySelector(
 			"#header-hamburger-menu"
 		);
 
-		navHamburgerMenu.addEventListener("click", toggleNavigationBar);
+		
 		headerHamburgerMenu.addEventListener("click", toggleNavigationBar);
 	}
 	function render() {
