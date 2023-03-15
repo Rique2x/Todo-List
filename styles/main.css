@@ -27,6 +27,8 @@ header {
 #header-hamburger-menu {
   border-radius: 5px;
   color: rgb(0, 0, 0);
+  transition: 0.3s;
+  cursor: pointer;
 }
 #header-hamburger-menu:hover {
   transition: 0.3s;
@@ -228,8 +230,8 @@ button:focus {
 nav {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 5px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   width: clamp(300px, 400px, 20%);
-  overflow: auto;
   background-color: #d9d9d9;
+  overflow-x: hidden;
   color: rgb(28, 31, 31);
 }
 
@@ -267,7 +269,7 @@ i {
 
 #main-projects-list .selected,
 #projects-list .selected {
-  background-color: rgba(96, 125, 139, 0.15);
+  background-color: #c0c0c0;
 }
 
 .projects-item {
@@ -371,6 +373,7 @@ main {
   color: rgb(0, 0, 0);
   font-family: sans-serif;
   font-weight: lighter;
+  padding-top: 50px;
 }
 
 #add-task {
@@ -379,7 +382,7 @@ main {
   padding: 10px;
   font-weight: bold;
   border: none;
-  margin: 15px 0px 15px 0px;
+  margin-top: 20px;
   border-radius: 20px;
   max-width: 130px;
 }
@@ -419,6 +422,7 @@ main {
 }
 
 .all-tasks {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 5px;
