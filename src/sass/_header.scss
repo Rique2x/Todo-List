@@ -36,6 +36,8 @@ header{
 #header-hamburger-menu {
 	border-radius: 5px;
 	color: $fontColor-Black;
+	transition: 0.3s;
+	cursor: pointer;
     
     &:hover{
     transition: 0.3s;

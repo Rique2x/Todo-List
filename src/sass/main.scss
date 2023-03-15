@@ -21,6 +21,7 @@ main {
 	color: $fontColor-Black;
     font-family: sans-serif;
 	font-weight: lighter;
+	padding-top: 50px;
 }
 
 #add-task{
@@ -29,7 +30,7 @@ main {
 	padding: 10px;
 	font-weight: bold;
 	border: none;
-	margin: 15px 0px 15px 0px;
+	margin-top: 20px;
 	border-radius: 20px;
 	max-width: 130px;
 	
@@ -71,6 +72,7 @@ main {
 }
 
 .all-tasks {
+	margin-top: 20px;
 	display: flex;
 	flex-direction: column;
 	gap: 5px;

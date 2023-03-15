@@ -54,13 +54,14 @@ const navigation = (() => {
 			setNavValue();
 		}
 
-		
+		  
 		const headerHamburgerMenu = document.querySelector(
 			"#header-hamburger-menu"
 		);
 
 		
 		headerHamburgerMenu.addEventListener("click", toggleNavigationBar);
+
 	}
 	function render() {
 		toggleNavigation();
