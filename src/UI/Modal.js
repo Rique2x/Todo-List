@@ -35,9 +35,6 @@ const handleModal = (() => {
 		const overlayModal = document.querySelector("#add-task-modal-overlay");
 		const openModal = document.querySelector("#add-task");
 		const cancelBtn = document.querySelector("#add-task-cancel");
-		const closeBtn = document.querySelector(
-			"#add-task-modal-header-cancel"
-		);
 		const addBtn = document.querySelector("#add-task-add");
 
 		const title = document.querySelector("#add-task-title");
@@ -48,9 +45,6 @@ const handleModal = (() => {
 
 		title.addEventListener("keyup", () => toggleError(title, titleError));
 		cancelBtn.addEventListener("click", () =>
-			toggleModal(modal, overlayModal)
-		);
-		closeBtn.addEventListener("click", () =>
 			toggleModal(modal, overlayModal)
 		);
 
@@ -94,9 +88,7 @@ const handleModal = (() => {
 		);
 		const openModal = document.querySelector("#nav-add-project");
 		const cancelBtn = document.querySelector("#add-project-cancel");
-		const closeBtn = document.querySelector(
-			"#add-project-modal-header-cancel"
-		);
+		
 		const addBtn = document.querySelector("#add-project-add");
 
 		const title = document.querySelector("#add-project-title");
@@ -106,9 +98,7 @@ const handleModal = (() => {
 		cancelBtn.addEventListener("click", () =>
 			toggleModal(modal, overlayModal)
 		);
-		closeBtn.addEventListener("click", () =>
-			toggleModal(modal, overlayModal)
-		);
+		
 
 		openModal.addEventListener("click", () => {
 			clearModalValues({ title, titleError, isAddProject: true });
@@ -128,9 +118,6 @@ const handleModal = (() => {
 		const modal = document.querySelector("#edit-task-modal");
 		const overlayModal = document.querySelector("#edit-task-modal-overlay");
 		const cancelBtn = document.querySelector("#edit-task-cancel");
-		const closeBtn = document.querySelector(
-			"#edit-task-modal-header-cancel"
-		);
 		const saveBtn = document.querySelector("#edit-task-save");
 
 		const title = document.querySelector("#edit-task-title");
@@ -164,9 +151,7 @@ const handleModal = (() => {
 		cancelBtn.addEventListener("click", () =>
 			toggleModal(modal, overlayModal)
 		);
-		closeBtn.addEventListener("click", () =>
-			toggleModal(modal, overlayModal)
-		);
+		
 		saveBtn.addEventListener("click", () => {
 			if (!title.value) {
 				toggleError(title, titleError);
@@ -192,9 +177,7 @@ const handleModal = (() => {
 			"#edit-project-modal-overlay"
 		);
 		const cancelBtn = document.querySelector("#edit-project-cancel");
-		const closeBtn = document.querySelector(
-			"#edit-project-modal-header-cancel"
-		);
+		
 		const saveBtn = document.querySelector("#edit-project-save");
 
 		const title = document.querySelector("#edit-project-title");
@@ -209,9 +192,7 @@ const handleModal = (() => {
 		cancelBtn.addEventListener("click", () =>
 			toggleModal(modal, overlayModal)
 		);
-		closeBtn.addEventListener("click", () =>
-			toggleModal(modal, overlayModal)
-		);
+		
 
 		saveBtn.addEventListener("click", () => {
 			if (!title.value) {
@@ -253,9 +234,7 @@ const handleModal = (() => {
 		cancelBtn.addEventListener("click", () =>
 			toggleModal(modal, overlayModal)
 		);
-		closeBtn.addEventListener("click", () =>
-			toggleModal(modal, overlayModal)
-		);
+		
 
 		deleteBtn.addEventListener("click", () => {
 			toggleModal(modal, overlayModal);
