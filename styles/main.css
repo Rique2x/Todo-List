@@ -229,6 +229,8 @@ nav {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 5px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   width: clamp(300px, 400px, 20%);
   overflow: auto;
+  background-color: #d9d9d9;
+  color: rgb(28, 31, 31);
 }
 
 #main-projects-heading,
@@ -336,6 +338,7 @@ i {
 html,
 body {
   height: 100%;
+  background-color: #d9d9d9;
 }
 
 li {
@@ -360,6 +363,7 @@ main {
   display: flex;
   height: calc(100% - 66px);
   gap: 15px;
+  background-color: #f2f2f2;
 }
 
 #main-title {
@@ -370,9 +374,9 @@ main {
 }
 
 #add-task {
-  padding: 10px;
   background-color: #f2f2f2;
   color: rgb(0, 0, 0);
+  padding: 10px;
   font-weight: bold;
   border: none;
   margin: 15px 0px 15px 0px;
