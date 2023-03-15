@@ -13,6 +13,7 @@ main {
 	display: flex;
 	height: calc(100% - 66px);
 	gap: 15px;
+	background-color: $a12;
 }
 
 #main-title {
@@ -23,15 +24,15 @@ main {
 }
 
 #add-task{
-    
-	padding: 10px;
 	background-color: $a12;
 	color: $fontColor-Black;
+	padding: 10px;
 	font-weight: bold;
 	border: none;
 	margin: 15px 0px 15px 0px;
 	border-radius: 20px;
 	max-width: 130px;
+	
 	&:hover{
 	transition: 0.3s;
 	background-color: $a15;
