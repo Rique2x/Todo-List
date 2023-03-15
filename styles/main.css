@@ -102,10 +102,11 @@ header {
 }
 
 .modal-form {
+  border-radius: 10px 10px 0 0;
   display: flex;
   gap: 10px;
   padding: 15px;
-  background-color: rgb(255, 255, 255);
+  background-color: #f2f2f2;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -125,9 +126,9 @@ header {
 
 .input-container-2 {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-  flex-grow: 1;
+  width: 600px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .input-container-2 > div {
@@ -147,16 +148,28 @@ header {
 .modal-form select {
   outline: none;
   border: none;
-  background-color: #eedc84;
+  background-color: #f2f2f2;
   padding: 5px;
   border-radius: 2px;
 }
 
-.modal-form input:focus,
-.modal-form select:focus,
-button:focus {
-  outline: 1px solid #f2e394;
-  box-shadow: 0 0 10px #eedc84;
+.modal-description {
+  border: 1px solid;
+  font-size: 0.9em;
+  font-weight: lighter;
+}
+
+.modal-title {
+  border: 1px solid;
+  font-size: 1.4em;
+  font-weight: bolder;
+}
+
+#add-task-due-date {
+  border: 1px solid;
+  max-width: 200px;
+  border-radius: 5px;
+  border-color: #dc2626;
 }
 
 .title-error {
@@ -172,8 +185,18 @@ button:focus {
   opacity: 1;
 }
 
+.priority-container {
+  display: flex;
+}
+
+.priority-container > select {
+  border: 1px solid;
+  display: flex;
+  font-family: sans-serif;
+}
+
 .modal-button-container {
-  background-color: #f3e9b7;
+  background-color: #f2f2f2;
   display: flex;
   align-items: center;
   padding: 10px;

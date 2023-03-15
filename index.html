@@ -78,7 +78,7 @@
                 Inbox
             </h1>
 
-            <button id="add-task"><i class="fa-solid fa-plus"></i> Add Task</button>
+            <button id="add-task"><i class="fa-solid fa-plus"></i> Add a Task</button>
 
             <div class="all-tasks">
             </div>
@@ -87,28 +87,24 @@
 
              <div class="modal" id="add-task-modal">
 
-                <div class="modal-header-container">
-                    <div class="modal-header-title">Add Task</div>
-                    <div class="modal-header-cancel" id="add-task-modal-header-cancel">&times;</div>
-                </div>
                 <div class="modal-content">
                     <form class="modal-form" id="add-task-form" action="">
                         <div class="input-container-1">
                             <div class="title-container">
-                                <label for="add-task-title" class="label-title">Title</label>
-                                <input type="text" id="add-task-title" class="modal-title" placeholder="Title">
+                                
+                                <input type="text" id="add-task-title" class="modal-title" placeholder="Task Name">
                                 <div class="title-error" id="add-task-title-error">Title can't be empty.</div>
                             </div>
-                            <div class="due-date-container">
-                                <label for="add-task-due-date" class="label-due-date">Due Date</label>
-                                <input type="datetime-local" id="add-task-due-date">
+                            <div class="description-container">
+                                
+                                <input type="text" id="add-task-description" class="modal-description"
+                                    placeholder="Description">
                             </div>
                         </div>
                         <div class="input-container-2">
-                            <div class="description-container">
-                                <label for="add-task-description">Description</label>
-                                <input type="text" id="add-task-description" class="modal-description"
-                                    placeholder="Description">
+                            
+                            <div class="due-date-container">
+                                <input type="datetime-local" id="add-task-due-date">
                             </div>
                             <div class="priority-container">
                                 <label for="add-task-priority">Priority</label>
